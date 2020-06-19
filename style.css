@@ -6,12 +6,23 @@ h1 {
     background-color:#55a8e4;
     color:rgb(107, 23, 8);
 }
+h4 {
+    text-align: center;
+    background-color:#55a8e4;
+    color:rgb(107, 23, 8);
+}
+h5 {
+    text-align: center;
+    background-color:#55a8e4;
+    color:rgb(107, 23, 8);
+}
+
 div {
     background-color:rgb(245, 158, 245);
     
 }
 button {
-    color:blueviolet;
+    color:white;
     background-color: cornsilk;
     border-radius: 52px;
   background: #0a3d62;
@@ -19,4 +30,10 @@ button {
   width: 100px;
   height: 60px;  
   text-align: center;
+  font-size:12px;
+  
+}
+button:hover {
+    background-color: #4CAF50;
+    color: white;
 }
