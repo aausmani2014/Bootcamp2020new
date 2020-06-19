@@ -10,3 +10,13 @@ div {
     background-color:rgb(245, 158, 245);
     
 }
+button {
+    color:blueviolet;
+    background-color: cornsilk;
+    border-radius: 52px;
+  background: #0a3d62;
+  padding: 20px; 
+  width: 100px;
+  height: 60px;  
+  text-align: center;
+}
