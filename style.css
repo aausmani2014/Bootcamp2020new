@@ -21,19 +21,41 @@ div {
     background-color:rgb(245, 158, 245);
     
 }
-button {
-    color:white;
-    background-color: cornsilk;
-    border-radius: 52px;
-  background: #0a3d62;
-  padding: 20px; 
-  width: 100px;
-  height: 60px;  
-  text-align: center;
-  font-size:12px;
+button{
+    margin: 0 20px;
+    width: 80px;
+    height: 50px;
+    background-color: #ccc;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 6px 6px 12px rgba(238, 43, 43, 0.15),
+                -6px -6px 12px rgba(255,255,255,.1);
+    overflow: hidden;
+    font-size: 10px;
+    transition: .3s linear;
+    position: relative;
+  }
+button:hover{
+    transform: scale(1.4);
+    border-radius: 50%;
+    background-color:#ccc;
+  }
   
-}
-button:hover {
-    background-color: #4CAF50;
-    color: white;
-}
+  button i::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-size: 200% 100%;
+    background-position: 75% 75%;
+    top: 0;
+    left: 0;
+    line-height: 80px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background .15s linear;
+  }
+  
+  button:hover i::before{
+    background-position: 0% 0%;
+  }
